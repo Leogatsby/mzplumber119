@@ -1,10 +1,10 @@
 import "./HNB.scss";
 
 const HERO_CONFIG = {
-  phoneNumber: "010-3375-3948",
+  phoneNumber: "010-7475-3948",
   companyName: "바로하수구119",
   logoPath: "/assets/Logo.png",
-  kakaoUrl: "https://open.kakao.com/o/siOY3soh",
+  kakaoUrl: "https://open.kakao.com/o/sNB1dO4h",
   navigation: [
     { id: "about", title: "회사소개" },
     { id: "services", title: "서비스" },

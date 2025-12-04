@@ -1,6 +1,6 @@
 const FLOAT_CONFIG = {
-  phoneNumber: "010-3375-3948",
-  kakaoUrl: "https://open.kakao.com/o/siOY3soh"
+  phoneNumber: "010-7475-3948",
+  kakaoUrl: "https://open.kakao.com/o/sNB1dO4h"
 } as const;
 
 export default function FloatSection() {

@@ -1,14 +1,14 @@
 const FOOTER_CONFIG = {
-  companyName: "청년타일",
+  companyName: "mz하수구119",
   ceoName: "백광일",
-  address: "서울특별시 금천구 시흥대로63길 64 104호 청년타일",
-  phoneNumber: "010-3375-3948",
-  businessNumber: "539-44-01118",
-  year: new Date().getFullYear(),
+  address: "서울시 관악구 서림3길 50, 501호",
+  phoneNumber: "010-7475-3948",
+  businessNumber: "539-44-01118", // 사업자번호 동일하게 유지한다고 가정
+  year: 2023, // 설립년도 고정
   businessHours: {
-    weekday: "09:00 - 18:00",
-    saturday: "09:00 - 15:00",
-    holiday: "휴무"
+    weekday: "24시간",
+    saturday: "24시간",
+    holiday: "365일 연중무휴"
   }
 } as const;
 
@@ -52,15 +52,13 @@ export default function FooterSection() {
               <p>일요일/공휴일: {FOOTER_CONFIG.businessHours.holiday}</p>
             </div>
             <p className="mt-4 text-gray-500">
-              상담은 전화 또는 카카오톡으로 언제든 문의주시면 빠르게
-              답변드리겠습니다.
+              24시간 365일 언제든 전화주세요. 빠르게 출동합니다.
             </p>
           </div>
         </div>
 
         <div className="pt-4 border-t border-gray-800 text-sm text-center">
-          © {FOOTER_CONFIG.year} {FOOTER_CONFIG.companyName}. All rights
-          reserved
+          © {FOOTER_CONFIG.year} {FOOTER_CONFIG.companyName}. All rights reserved
         </div>
       </div>
     </footer>

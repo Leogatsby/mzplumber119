@@ -1,6 +1,6 @@
 import HNB from "./components/1.HNB/HNB";
 import MainVideo from "./components/2.MainVideo/MainVideo";
-import Services from "./components/3.Service/Services";
+import Services from "./components/3.Services/Services";
 import Review from "./components/4.Review/Review";
 import Contact from "./components/5.Contact/Contact";
 import Footer from "./components/6.Footer/Footer";
